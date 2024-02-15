@@ -117,4 +117,4 @@ public class ShedLockConfig {
 응용 프로그램을 다시 시작할 때까지 행이 자동으로 생성되지 않기 때문에 수동으로 삭제하지 말라고 주의를 주고 있습니다.
 
 ## reference
-> https://github.com/lukas-krecan/ShedLock
+> [https://github.com/lukas-krecan/ShedLock](https://github.com/lukas-krecan/ShedLock)

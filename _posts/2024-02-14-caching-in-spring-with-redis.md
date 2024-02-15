@@ -261,6 +261,8 @@ public class CachingConfig {
 - 이럴 때는 캐시에 데이터를 밀어넣는 캐시워밍(Cache Warming)을 진행할 수 있음
 
 ## reference
-> https://docs.spring.io/spring-data/redis/reference/redis/redis-cache.html
-> https://www.baeldung.com/spring-cache-tutorial
-> https://www.youtube.com/watch?v=92NizoBL4uA&ab_channel=NHNCloud
+> [https://docs.spring.io/spring-data/redis/reference/redis/redis-cache.html](https://docs.spring.io/spring-data/redis/reference/redis/redis-cache.html) 
+
+> [https://www.baeldung.com/spring-cache-tutorial](https://www.baeldung.com/spring-cache-tutorial)
+ 
+> [https://www.youtube.com/watch?v=92NizoBL4uA&ab_channel=NHNCloud](https://www.youtube.com/watch?v=92NizoBL4uA&ab_channel=NHNCloud)
