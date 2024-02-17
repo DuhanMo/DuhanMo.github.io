@@ -20,7 +20,7 @@ public ResponseEntity<Void> demo(HttpServletRequest request) {
 }
 ```
 
-![img.png](../assets/img/20240217/img.png)
+![img.png](/assets/img/20240217/img.png)
 
 스프링에서 제공하는 `HttpServletRequest` 객체에 세션을 설정만 하면 브라우저에서 사진과 같이 쿠키가 설정되어 있는 모습을 확인할 수 있습니다.
 
@@ -29,7 +29,7 @@ public ResponseEntity<Void> demo(HttpServletRequest request) {
 
 ## getSession()에서 일어나는 일 (쿠키에 세션데이터가 없을 때)
 
-![img_1.png](../assets/img/20240217/img_1.png)
+![img_1.png](/assets/img/20240217/img_1.png)
 
 `HttpServletRequest.getSession()` 메서드를 호출하면 Http 요청에 세션이 없다면 새롭게 생성해줍니다. `HttpServletRequest`의 구현체인 `Request`가 구현한 `getSession()`을 호출합니다.
 
@@ -45,7 +45,7 @@ public ResponseEntity<Void> demo(HttpServletRequest request) {
 
 ## 스프링의 Session 관리 데이터 구조
 
-![img_2.png](../assets/img/20240217/img_2.png)
+![img_2.png](/assets/img/20240217/img_2.png)
 
 상위 그림에서 보여지는 `StandardManger`가 Tomcat이 동작한 이후에 생성된 Session 목록을 관리합니다. 새롭게 생성된 `session`은 `sessions`에 추가됩니다.
 key는 sessionId(위에서 생성한 랜덤문자열)이며 value는 Map 형태로 지니고 있습니다. 여러 유저들이 서버에 접근하거나, 브라우저에서 쿠키를 지우고 세션을 생성하면 `sessions`에 계속해서 `session`이 생성됩니다.
@@ -60,7 +60,7 @@ key는 sessionId(위에서 생성한 랜덤문자열)이며 value는 Map 형태�
 
 스프링 컨테이너는 세션을 쿠키에 작성해 내려줄 때 기본값으로 JSESSIONID 문자열을 이용합니다. 당연하게도 `setAttribute()`에서 지정해주는 key값과는 관계가 없습니다.
 
-![SessionConfig.class](../assets/img/20240217/img_3.png)
+![SessionConfig.class](/assets/img/20240217/img_3.png)
 
 ## 마치며
 
