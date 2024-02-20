@@ -116,5 +116,9 @@ public class ShedLockConfig {
 
 응용 프로그램을 다시 시작할 때까지 행이 자동으로 생성되지 않기 때문에 수동으로 삭제하지 말라고 주의를 주고 있습니다.
 
+## 마치며
+
+분산 시스템 환경에서 Scheduler 단일 동작시키는 방법을 알아보았습니다. 읽어주셔서 감사합니다.
+
 ## reference
 > [https://github.com/lukas-krecan/ShedLock](https://github.com/lukas-krecan/ShedLock)
