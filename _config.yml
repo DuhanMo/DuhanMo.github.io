@@ -19,11 +19,11 @@ title: Duhan # the main title
 tagline: Small steps make big change # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Backend develop interested in Java, Spring Ecosystem
+  Backend developer interested in Java, Spring Ecosystem
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://duhandv.github.io"
+url: 'https://duhandv.github.io'
 
 github:
   username: duhandv # change to your github username
@@ -44,7 +44,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: 1fdgG0hR9TOpfAxWAqqSNevyQDU-yxuhybEM7H9C2a4 # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
