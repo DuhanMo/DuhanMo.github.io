@@ -1,5 +1,5 @@
 ---
-title: IP 기반 API 호출 횟수 제한
+title: "IP 기반 API 호출 횟수 제한"
 categories: [ Spring ]
 tags: [ aop ]
 ---
