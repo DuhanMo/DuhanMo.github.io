@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://duhandv.github.io/sitemap.xml
